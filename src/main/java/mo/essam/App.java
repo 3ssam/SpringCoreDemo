@@ -12,7 +12,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        Sumsung sumsung = new Sumsung();
+        ApplicationContext context = new AnnotationConfigApplicationContext();
+        Sumsung sumsung = context.getBean(Sumsung.class);
         sumsung.config();
     }
 }
