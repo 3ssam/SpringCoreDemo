@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 public class Sumsung {
 
     @Autowired
+    @Qualifier("exoz")
     private MobileProcessor dragon;
 
     public void setDragon(MobileProcessor dragon) {
