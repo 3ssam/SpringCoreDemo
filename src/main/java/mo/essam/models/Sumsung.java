@@ -2,12 +2,13 @@ package mo.essam.models;
 
 import mo.essam.interfaces.MobileProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Sumsung {
 
     @Autowired
     private MobileProcessor dragon;
-
 
     public void setDragon(MobileProcessor dragon) {
         this.dragon = dragon;
