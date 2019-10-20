@@ -2,6 +2,7 @@ package mo.essam.models;
 
 import mo.essam.interfaces.MobileProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component //its name of Component is "sumsung"
