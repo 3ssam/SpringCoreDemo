@@ -1,11 +1,15 @@
 package mo.essam.models;
 
+import mo.essam.interfaces.MobileProcessor;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Sumsung {
 
-    private SnabDragon dragon;
+    @Autowired
+    private MobileProcessor dragon;
 
 
-    public void setDragon(SnabDragon dragon) {
+    public void setDragon(MobileProcessor dragon) {
         this.dragon = dragon;
     }
 
