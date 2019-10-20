@@ -4,7 +4,8 @@ import mo.essam.interfaces.MobileProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component //its name of Component is "sumsung"
+//you can change it when using qualify instead of autowired that is search bu name not datatype
 public class Sumsung {
 
     @Autowired
